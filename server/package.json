@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --env-file=.env index.js ",
+    "dev": "node --watch --trace-warnings --env-file=.env index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.12.1",
+    "@types/axios": "^0.14.4",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.1.0",
+    "graphql": "^16.11.0"
+  }
+}
