@@ -28,6 +28,7 @@ async function startServer() {
                getUser(id: ID!): User
                getAllUsers: [User]
             }
+
          `,
       resolvers: {
          Todo: {
